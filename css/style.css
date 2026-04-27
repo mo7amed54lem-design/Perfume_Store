@@ -1,0 +1,125 @@
+:root {
+--main-color: #001f3f;
+--gold-color: #D4AF37;
+--bg-color: #f8f9fa;
+}
+
+
+html, body {
+height: 100%;
+margin: 0;
+background: var(--bg-color);
+}
+
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1;
+}
+
+
+.navbar {
+background-color: var(--main-color);
+box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.navbar a {
+color: white !important;
+transition: 0.3s;
+}
+
+.navbar a:hover {
+color: var(--gold-color) !important;
+transform: translateY(-2px);
+}
+
+
+.logo-img {
+width: 35px;
+height: 35px;
+border-radius: 50%;
+transition: 0.4s;
+}
+
+.logo-hover:hover .logo-img {
+transform: scale(1.2) translateY(-3px);
+}
+
+
+.nav-icon {
+font-size: 18px;
+transition: 0.3s;
+position: relative;
+}
+
+.nav-icon:hover {
+color: var(--gold-color) !important;
+transform: translateY(-2px);
+}
+
+.badge {
+font-size: 10px;
+}
+
+.navbar-collapse {
+background: transparent;
+}
+
+@media (max-width: 991px) {
+.navbar-collapse {
+background: var(--main-color);
+padding: 15px;
+border-radius: 12px;
+margin-top: 10px;
+}
+
+.navbar-nav {
+text-align: center;
+gap: 10px;
+}
+}
+
+
+.btn-main {
+background: var(--main-color);
+color: white;
+transition: 0.3s;
+border-radius: 8px;
+}
+
+.btn-main:hover {
+background: var(--gold-color);
+color: black;
+transform: scale(1.03);
+}
+
+
+footer a {
+text-decoration: none;
+color: white;
+transition: 0.3s;
+}
+
+footer a:hover {
+color: var(--gold-color);
+}
+
+
+.social-icon {
+color: white;
+font-size: 20px;
+transition: 0.3s;
+}
+
+.social-icon:hover {
+color: var(--gold-color);
+transform: scale(1.1) translateY(-2px);
+}
+
+html {
+scroll-behavior: smooth;
+}
