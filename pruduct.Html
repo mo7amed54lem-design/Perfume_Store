@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر لودور - العطور</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #fcfcfc; font-family: 'Segoe UI', sans-serif; }
+        .navbar { background-color: #1a1a1a; }
+        .product-card { transition: 0.3s; border: none; border-radius: 15px; }
+        .product-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .footer { background-color: #1a1a1a; color: white; margin-top: 50px; padding: 40px 0; }
+        .btn-buy { background-color: #1a1a1a; color: white; border-radius: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="images/logo.png" alt="Lodor" style="height: 40px;">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">العطور</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center fw-bold mb-5">مجموعة عطورنا المميزة</h2>
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item1.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 01</h5>
+                        <p class="text-primary fw-bold">750 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item2.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 02</h5>
+                        <p class="text-primary fw-bold">850 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item3.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 03</h5>
+                        <p class="text-primary fw-bold">900 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item4.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 04</h5>
+                        <p class="text-primary fw-bold">800 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item5.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 05</h5>
+                        <p class="text-primary fw-bold">950 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 product-card shadow-sm text-center p-3">
+                    <img src="images/perfumes/item6.png" class="card-img-top mx-auto" style="width: 180px;" alt="عطر">
+                    <div class="card-body">
+                        <h5 class="fw-bold">عطر لودور 06</h5>
+                        <p class="text-primary fw-bold">700 EGP</p>
+                        <button class="btn btn-buy w-100 py-2">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center text-md-end">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning fw-bold">عن لودور</h5>
+                    <p>أفخم أنواع العطور المستوحاة من الطبيعة.</p>
+                </div>
+                <div class="col-md-6 text-md-start">
+                    <h5 class="text-warning fw-bold">تابعنا</h5>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <p class="text-center mb-0 small">جميع الحقوق محفوظة © 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
